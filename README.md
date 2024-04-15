@@ -33,10 +33,10 @@ Overall, the Automatic Plant Watering System provides a convenient and efficient
 
 * John Caleb (JC) Williams - Graduate Course Assistant
    
-* Jack Bender-  
+* Jack Bender-  Junior Electrical Engineering Undergrad 
 
-* Erdinc Ozturk-
-* 
+* Erdinc Ozturk- Freshman Computer Engineering Undergrad
+  
 * Hossana Haileleul- Senior Electrical Engineering and Computer Science Undergrad
 
 
