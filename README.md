@@ -16,7 +16,7 @@ Overall, the Automatic Plant Watering System provides a convenient and efficient
 
 <u>**Project Capabilities**</u>
 
-* The Automatic Plant Watering System Has several key capabilities including:
+The Automatic Plant Watering System Has several key capabilities including:
 
 * Automated Watering: The system autonomously measures the moisture level of the soil and dispenses water as needed, ensuring plants receive optimal hydration without manual intervention.
 
