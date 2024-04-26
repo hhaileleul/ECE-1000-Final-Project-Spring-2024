@@ -31,7 +31,7 @@ The Automatic Plant Watering System Has several key capabilities including:
 **Who Are We? Dr. Indranil  Bhattacharya's ECE 1000 Students**
 * Dr. Indranil  Bhattacharya - Professor and Department Chair 
 
-* John Caleb (JC) Williams - Graduate Course Assistant
+* John Caleb (JC) Williams - Graduate Assistant
    
 * Jack Bender-  Junior Electrical Engineering Undergrad 
 
