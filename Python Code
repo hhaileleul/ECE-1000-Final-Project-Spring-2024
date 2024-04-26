@@ -1,0 +1,20 @@
+from machine import ADC,Pin
+import utime
+ 
+moisture_sensor = ADC(26) #creating an instance 'moisture_sensor' of ADC class so GPIO 26 is configured for analog input
+relay = Pin(17,Pin.OUT) #GPIO 17 outputting to relay
+water_button_1 = Pin(18,Pin.IN) #button input for manual watering
+turnOff_button_4 = Pin(19,Pin.IN) #button 4 on the board to turn off pump and terminate code
+ 
+ 
+while not turnOff_button_4.value(): #run while button 4 not pressed
+    reading = moisture_sensor.read_u16() #looking at analog voltage value from 'moisture' and storing digital voltage value in 'reading' -- u16 indicates function returns 16-bit unsigned number
+    voltage = 3300 * reading / 65535 # Convert the 'reading' digital value, representing the measured voltage on the sensor, to a voltage with respect to 3.3V
+    print("{:.1f}mV".format(voltage)) #printing 'voltage' formatted with one decimal place
+    if voltage > 1000 or water_button_1.value() == 1: #if value is ess then 500mV
+        relay.value(1) #relay on
+    else:
+        relay.value(0) #relay off
+relay.value(0) #turn off pump
+
+ 
